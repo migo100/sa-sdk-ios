@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     c.public_header_files = 'SensorsAnalyticsSDK/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h'
     c.source_files = 'SensorsAnalyticsSDK/Core/SAAlertController.{h,m}', 'SensorsAnalyticsSDK/JSBridge/**/*.{h,m}'
     c.ios.source_files = 'SensorsAnalyticsSDK/RemoteConfig/**/*.{h,m}', 'SensorsAnalyticsSDK/ChannelMatch/**/*.{h,m}', 'SensorsAnalyticsSDK/Encrypt/**/*.{h,m}', 'SensorsAnalyticsSDK/Deeplink/**/*.{h,m}', 'SensorsAnalyticsSDK/DebugMode/**/*.{h,m}', 'SensorsAnalyticsSDK/Core/SAAlertController.h', 'SensorsAnalyticsSDK/UIRelated/**/*.{h,m}'
-    c.ios.public_header_files = 'SensorsAnalyticsSDK/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h', 'SensorsAnalyticsSDK/Encrypt/SAEncryptProtocol.h', 'SensorsAnalyticsSDK/Encrypt/SASecretKey.h', 'SensorsAnalyticsSDK/Deeplink/SASlinkCreator.h', 'SensorsAnalyticsSDK/UIRelated/UIView+SensorsAnalytics.h', 'SensorsAnalyticsSDK/UIRelated/SAUIProperties.h'
+    c.ios.public_header_files = 'SensorsAnalyticsSDK/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h', 'SensorsAnalyticsSDK/Encrypt/SAEncryptProtocol.h', 'SensorsAnalyticsSDK/Encrypt/SASecretKey.h', 'SensorsAnalyticsSDK/Deeplink/SASlinkCreator.h', 'SensorsAnalyticsSDK/UIRelated/UIView+SensorsAnalytics.h', 'SensorsAnalyticsSDK/UIRelated/SAUIProperties.h', 'SensorsAnalyticsSDK/UIRelated/UIView+SAInternalProperties.h'
   end
 
   s.subspec 'Core' do |c|
